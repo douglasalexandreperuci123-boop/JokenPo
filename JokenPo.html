@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="JPstyles.css">
+    <title>Joken Pô</title>
+</head>
+<body>
+    <div class="container">
+
+        <h1>Joken Pô</h1>
+
+        <div class="buttons">
+
+        <button id="rock"  onclick="playHuman ('Rock')">&#x1F44A;&#x1F3FB;</button>
+        <button id="paper" onclick="playHuman ('Paper')">&#x1F91A;&#x1F3FB;</button>
+        <button id="scissors" onclick="playHuman ('Scissors')">&#x270C;&#x1F3FB;</button>
+
+        </div>
+        <p class="result"></p>
+
+
+        <P class="your-score">Sua pontuação: <span id="Human-score" >0</span></P>
+        <P class="machine-score">Pontuação da alexa: <span id="Machine-score">0</span></P>
+        
+        
+
+    </div>
+    <script src="JokenPo.js"> </script>
+</body>
+</html>
